@@ -44,7 +44,7 @@ function Name() {
 
 function Career() {
   return (
-    <h2 className="font-bold text-[24px] md:text-[36px] text-[#f9501d]">
+    <h2 className="font-bold text-[24px] md:text-[36px] text-accent">
       Software Engineer
     </h2>
   );
@@ -179,7 +179,7 @@ function Blob2() {
 
 function Details() {
   return (
-    <div className="flex flex-col gap-4 md:gap-6 text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-gray-700">
+    <div className="flex flex-col gap-4 md:gap-6 text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] text-muted-foreground">
       <p className="">
         Whether it&apos;s automating workflows, enhancing system security, or
         developing full-stack applications, I thrive on solving complex problems

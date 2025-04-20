@@ -206,7 +206,7 @@ export default function Skills() {
           {skills.Backend.map((skill) => (
             <div
               key={skill.name}
-              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-[#f9501d]"
+              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-accent"
             >
               {skill.icon}
               <h4>{skill.name}</h4>
@@ -217,7 +217,7 @@ export default function Skills() {
           {skills.Frontend.map((skill) => (
             <div
               key={skill.name}
-              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-[#f9501d]"
+              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-accent"
             >
               {skill.icon}
               <h4>{skill.name}</h4>
@@ -228,7 +228,7 @@ export default function Skills() {
           {skills.Database.map((skill) => (
             <div
               key={skill.name}
-              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-[#f9501d]"
+              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-accent"
             >
               {skill.icon}
               <h4>{skill.name}</h4>
@@ -239,7 +239,7 @@ export default function Skills() {
           {skills.Tools.map((skill) => (
             <div
               key={skill.name}
-              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-[#f9501d]"
+              className="col-span-6 md:col-span-4 lg:col-span-3 flex items-center justify-center gap-2 border p-4 rounded-md hover:text-accent"
             >
               {skill.icon}
               <h4>{skill.name}</h4>
