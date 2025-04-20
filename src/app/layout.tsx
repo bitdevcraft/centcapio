@@ -19,6 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="./icon.png" type="image/png" sizes="any" />
       <body
         className={`${montserrat.variable}  font-montserrat antialiased min-w-[425px]`}
       >
